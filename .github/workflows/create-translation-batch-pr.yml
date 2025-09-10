@@ -116,7 +116,7 @@ jobs:
           git commit -m "Add crowdin translations" || echo "Nothing to commit"
 
       - name: 'Setup node'
-        uses: actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444
         with:
           node-version: '16'
 
